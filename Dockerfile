@@ -1,6 +1,7 @@
 FROM kong:3.3.1-alpine
 
 COPY kong.yaml /config/kong.yaml
+COPY kong.conf /etc/kong/kong.conf
 
 USER root
 

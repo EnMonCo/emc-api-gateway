@@ -1,0 +1,16 @@
+_format_version: "2.1"
+_transform: true
+
+services:
+- name: emc-accounts
+  url: http://emc-accounts:8000
+  routes:
+  - name: users
+    paths:
+    - /users
+- name: emc-meters  
+  url: http://emc-meters:8000
+  routes:
+  - name: meters
+    paths:
+    - /meters

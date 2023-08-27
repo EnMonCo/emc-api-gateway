@@ -5,12 +5,12 @@ services:
 - name: emc-accounts
   url: http://emc-accounts:8000
   routes:
-  - name: users
+  - name: emc-accounts
     paths:
-    - /users
+    - /emc-accounts
 - name: emc-meters  
   url: http://emc-meters:8000
   routes:
-  - name: meters
+  - name: emc-meters
     paths:
-    - /meters
+    - /emc-meters

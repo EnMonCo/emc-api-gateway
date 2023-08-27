@@ -1,4 +1,4 @@
-FROM kong:2.7.1-alpine
+FROM kong:3.3.1-alpine
 
 COPY kong.yaml /config/kong.yaml
 

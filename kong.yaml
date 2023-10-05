@@ -3,13 +3,13 @@ _transform: true
 
 services:
 - name: emc-accounts
-  url: http://emc-accounts:8000
+  url: https://emc-accounts.azurewebsites.net
   routes:
   - name: emc-accounts
     paths:
     - /emc-accounts
 - name: emc-meters  
-  url: http://emc-meters:8000
+  url: https://emc-meters.azurewebsites.net
   routes:
   - name: emc-meters
     paths:
